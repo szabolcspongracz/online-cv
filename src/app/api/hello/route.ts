@@ -1,3 +1,4 @@
-export async function GET(request: Request) {
-  return new Response('Hello, Next.js!')
+// request: Request parameter removed - unused-var
+export async function GET() {
+  return new Response("Hello, Next.js!");
 }
